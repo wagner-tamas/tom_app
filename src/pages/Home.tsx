@@ -5,19 +5,23 @@ import './Home.css';
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
+      {/*<IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>Blank fent</IonTitle>
         </IonToolbar>
-      </IonHeader>
+      </IonHeader>*/}
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+            <IonTitle size="large">Blank lent</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
-      </IonContent>
+        {/*<ExploreContainer/>*/}
+        <IonContent fullscreen>
+  <iframe src="https://dtutor-teszt.woodpecker.hu/dTutor"  scrolling="yes"></iframe>
+</IonContent>
+</IonContent>
+
     </IonPage>
   );
 };
